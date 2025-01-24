@@ -28,9 +28,13 @@ This covers the major software offerings of the Specify Collections Consortium.
 
 ## Taxonomy
 
+### Building Trees
+
 - [Taxa Tree Generator](https://github.com/specify/taxa_tree_docker) - A tool for creating taxon tree files for import via the Specify WorkBench based on source data from GBIF, WoRMS, Catalogue of Life, and ITIS. It is especially useful during conversions. Users often request trees along with a list of names, such as families, genera, or species, and we use that list to select the appropriate names and ranks.
 
    ![Taxa Tree Generator](https://github.com/user-attachments/assets/04c1145f-13a4-40af-8b0c-f42b9abd2e67)
+
+### Importing Synonyms
 
 - [Specify7-Api-Demo](https://github.com/melton-jason/Specify7-Api-Demo/tree/main) by [@melton-jason](https://github.com/melton-jason/): Currently in Specify 7, there is not an easy way using the frontend interface (or the WorkBench component) to **mass-import synonymized** Taxa. This demo aims to create an application that reads a CSV file with taxonomic information to upload new taxa to a Specify 7 instance and update existing taxa with the latest data from the file.
 
