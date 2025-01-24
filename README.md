@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img width="400" src="https://github.com/user-attachments/assets/fddc33e2-1d0b-486f-9482-d077068e9f66" alt="logo of vue-awesome repository">
+  <img width="400" src="https://github.com/user-attachments/assets/46d6c42e-aea5-47d4-90d9-27194f759ea3" alt="logo of vue-awesome repository">
   <br>
   <br>
 </p>
