@@ -28,7 +28,7 @@ This covers the major software offerings of the Specify Collections Consortium.
 
 ## Taxonomy
 
-- [Taxa Tree Generator](https://github.com/specify/taxa_tree_docker) - A tool for creating taxon tree files for import via the Specify WorkBench based on source data from GBIF, WoRMS, Catalogue of Life, and ITIS. 
+- [Taxa Tree Generator](https://github.com/specify/taxa_tree_docker) - A tool for creating taxon tree files for import via the Specify WorkBench based on source data from GBIF, WoRMS, Catalogue of Life, and ITIS. It is especially useful during conversions. Users often request trees along with a list of names, such as families, genera, or species, and we use that list to select the appropriate names and ranks.
 
    ![Taxa Tree Generator](https://github.com/user-attachments/assets/04c1145f-13a4-40af-8b0c-f42b9abd2e67)
 
