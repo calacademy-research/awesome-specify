@@ -11,9 +11,27 @@ A community-driven list of Specify integrations, software, and resources develop
 
 Please see the official Specify code repositories at [https://github.com/specify](https://github.com/specify).
 
-## Community repositories
+## Repositories
+
+#### Taxonomy
+
+[Taxa Tree Generator](https://github.com/specify/taxa_tree_docker) - A tool for creating taxon tree files 
+for import via the Specify WorkBench based on source data from GBIF, WoRMS, Catalogue of Life, and ITIS. 
+It is especially useful during conversions. Users often request trees along with a list of names, such as 
+families, genera, or species, and we use that list to select the appropriate names and ranks.
+
+[Specify7-Api-Demo](https://github.com/melton-jason/Specify7-Api-Demo/tree/main) by 
+[@melton-jason](https://github.com/melton-jason/): Currently in Specify 7, there is not an easy way using 
+the frontend interface (or the WorkBench component) to **mass-import synonymized** Taxa. This demo aims 
+to create an application that reads a CSV file with taxonomic information to upload new taxa to a 
+Specify 7 instance and update existing taxa with the latest data from the file.
 
 #### Miscellaneous / mixed
+
+[Sp7APIToolbox](https://github.com/NHMDenmark/Sp7ApiToolbox) by [NHMDenmark](https://github.com/NHMDenmark) - Aimes to gather 
+different code classes, named tools, for interacting with the Specify7 API allowing for bulk actions. For the time being it 
+will run from a command line and can be run directly in a development environment. Pending needs, a fully functional release 
+may be published eventually, perhaps even with a graphical user interface.
 
 [SpecifyUtilities](https://github.com/NSCF/SpecifyUtilities): 
 A mishmash of scripts developed by the [Natural Science Collections Facility](https://nscf.org.za/) for doing various things in 
