@@ -49,6 +49,8 @@ from the database while troubleshooting, migrating, etc.
 [specify-api-js-client](https://github.com/NSCF/Specify-API-JS-client): An OLD repo for getting started with the 
 Specify API, mainly getting the access token, in Javascript. May well no longer work...
 
+[Specify 7 Test Panel](https://github.com/specify/specify7-test-panel) - A powerful utility to manage and deploy a cluster of Specify 7 instances for testing with automatic deployment, authentication and a test panel for setting configuration. Used internally at Specify.
+
 #### Data migration / workbench
 
 [nca-data-migrator](https://github.com/NSCF/nca-specify-migrator):
