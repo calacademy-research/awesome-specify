@@ -43,6 +43,9 @@ full names for plants. Scripts DO NOT use the API, so beware!
 Sometimes the XML files that define the Specify forms are a bit untidy, so this formats and sorts the views/viewdefs 
 alphabetically to make them easier to work with. Nice to do this with a new Specify instance before starting on form customization.
 
+[specify-edit-bot](https://github.com/beatybiodiversitymuseum/specify-edit-bot):
+Enables editing or deleting records based on data defined in a csv file. A "bot" user is created to perform the changes, allowing minimal permission scoping for security and to reduce the liklihood of error. Can be run continuously, with a rate of 1 edit/delete per 5 seconds.
+
 [specify-sql](https://github.com/NSCF/SpecifySQL): a set of SQL queries I used to quickly get information directly 
 from the database while troubleshooting, migrating, etc.
 
