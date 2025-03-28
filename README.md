@@ -66,5 +66,6 @@ updatesynonyms, which was intended to use World Spider Catalog, but was abandone
 discovered that WSC taxon identifiers are moved when names are synonymized. Please CLONE and not FORK 
 this repo for migrations on other collections.
 
-
+[Spreadsheet Spatial Data Conversion](https://github.com/heryk/spreadsheetSpatialDataConversion):
+This guide outlines two methods for converting and standardizing spatial data in an Excel spreadsheet to decimal degrees (DD). The first method uses Python, while the second method utilizes PostgreSQL with Postgis extension. These methods support spatial data in formats such as DD (Decimal Degrees), DMS (Degrees Minutes Seconds), and UTM (Universal Transverse Mercator). They can also be adapted to handle other projections.
 
