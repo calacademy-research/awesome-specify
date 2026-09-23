@@ -76,3 +76,14 @@ This guide outlines two methods for converting and standardizing spatial data in
 [Web Asset Importer](https://github.com/calacademy-research/web-asset-importer) – A bulk image import client designed to work with the enhanced web asset server. It ingests both legacy and newly added images from collection-specific directories, extracting ID numbers from filenames, directory paths, or via automatic EXIF tagging—though custom ID extraction methods can be implemented easily. It supports MD5-based duplicate detection, recursive scanning, regex and date-based batch control, and preserves human edits in the Specify database. While tailored for CAS workflows, it provides generic base classes for easy customization to other institutional needs, and integrates with Picturae imports, TNRS-based taxonomic validation, and dynamic creation of taxon and agent records.
 
 [Web Asset Server with Caddy](https://github.com/mark-pitblado/specify-asset-with-caddy) - A simple docker setup to run the specify asset server with the caddy web server instead of nginx. Caddy is useful if you would like automatic ssl certificate renewal out of the box for https, and automatic 80->443 redirects. No need to configure certbot or letsencrypt.
+
+#### Security / Infrastructure
+
+[dmz-shield](https://github.com/calacademy-research/dmz-shield) by [California Academy of Sciences](https://github.com/calacademy-research) -
+A shared blocklist for a collection's public-facing servers (Specify 7, web portals, image/asset servers): a scanner or
+scraper caught by any host is dropped at every host's firewall within about 10 seconds. Built on CrowdSec and Ansible, with
+AI/bulk-crawler blocking, a fail-open web application firewall, datacenter-range bans that allowlist data partners such as
+GBIF, a scraper gate for image servers, a nightly report email, and one command-line tool with a guided install.
+Battle tested: it has protected the Academy's 11 public servers under continuous scraping and attack since July 2026.
+The repository is deliberately **not public**, so attackers can't study how to get past it; peer institutions are welcome
+to request access from jrussack@calacademy.org.
